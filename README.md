@@ -42,19 +42,5 @@ To be honest, I wrote this script a long time ago, so I don't remember all the d
 2. `./parse_evernote.py [-j destination_journal] your_evernote_export.enx`
 
 
-## Pre-requisites
-
-
-2. Install the python requirements in the requirements.txt file.
-
-
-## This could be useful
-
-```
-for x in ~/Downloads/health/*; do y=$(basename "${x}"); dt="${y:0:8}120000"; tit=${y:9:100}; ./add_file_to_dayone.py -j Health --title "${tit%%.pdf}" --date ${dt} "${x}"; done
-```
-
-
-Trademarks and copyrights
-Evernote and Day One are trademarks of their respective owners. This code is in no way related
-to or endorsed by those entities. I doubt if they even know this code exists.
+## Trademarks
+Evernote and Day One are trademarks of their respective owners.

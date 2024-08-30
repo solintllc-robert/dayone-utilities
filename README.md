@@ -4,11 +4,9 @@ This repository contains Python scripts for working with [Day One](https://dayon
 
 The scripts included are:
 - add_file_to_dayone.py: imports a text, image, or PDF file into Day One
-- backup_dayone.py: generates an encrypted full or incremental backup of all journals in Day One.
 - [parse_evernote.py](#parse-evernote): imports an Evernote export
 
 Note: This code is in no way related to or endorsed by those Day One nor Evernote. I doubt if they even know this code exists.
-
 
 ## Installation
 
@@ -34,6 +32,7 @@ You can wrap the script with a little BASH to load a lot of files. For example:
 
 You might run something like:
 `for x in ~/Downloads/*; do y=$(basename "${x}"); dt="${y:0:8}120000"; tit=${y:9:100}; ./add_file_to_dayone.py -j Downloads --title "${tit%%.pdf}" --date ${dt} "${x}"; done`
+
 
 ### Parse Evernote
 

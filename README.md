@@ -1,4 +1,4 @@
-# evernote2dayone
+# Day One Utilties
 
 This repository contains Python scripts for working with [Day One](https://dayoneapp.com/web/). Hopefully, you find them useful.
 
